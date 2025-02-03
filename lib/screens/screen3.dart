@@ -5,7 +5,6 @@ class Screen3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Obtener los argumentos pasados desde la pantalla 2
     final String message = ModalRoute.of(context)!.settings.arguments as String;
 
     return Scaffold(
